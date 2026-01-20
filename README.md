@@ -16,16 +16,18 @@ Ce projet propose une analyse basée sur la donnée pour optimiser la délivranc
 Voici le guide des fichiers présents dans ce dépôt pour comprendre la structure du projet :
 
 ### 1.  Traitement & Analyse (Code Python)
-* **`/scripts/data_cleaning.py`** : Script d'automatisation du nettoyage des données (normalisation des noms de communes, gestion des doublons et formatage temporel).
-* **`/notebooks/EDA_Analysis.ipynb`** : Analyse exploratoire détaillée incluant les calculs des 7 KPI et les visualisations de corrélation (Python, Pandas, Plotly).
-* **`requirements.txt`** : Liste des bibliothèques nécessaires pour reproduire l'environnement d'analyse.
+* **`/scripts/nettoyage_preparation_donnes.ipynb** : Script d'automatisation du nettoyage des données (normalisation des noms de communes, gestion des doublons et formatage temporel).
+* **`/notebooks/EDA.ipynb`** : Analyse exploratoire détaillée incluant les calculs des 7 KPI et les visualisations de corrélation (Python, Pandas, Plotly).
 
 ### 2.  Application Dashboard
 * **`/app/readme`** : texte dans lequel se trouve le lien du dasboard 
 * **`/data/master_data_cleaned.csv`** : Jeu de données final consolidé utilisé par le dashboard.
 
 ### 3.  Livrables & Documentation
-* **`/docs/rapport_synthese.pdf`** : Rapport final rédigé en **LaTeX** détaillant les 7 KPI, les limites méthodologiques et les recommandations.
-* **`/docs/presentation_executive.pptx`** : Support PowerPoint de 5 slides résumant le diagnostic et la feuille de route 2024-2026.
+* **`/docs/rapport.pdf`** : Rapport final rédigé en **LaTeX** détaillant les 7 KPI, les limites méthodologiques et les recommandations.
+* **`/docs/presentation.pptx`** : Support PowerPoint  résumant le diagnostic et la feuille de route.
+
+### . Les KPI
+* **`/KPI/KPI.xlsx`** : presente les kpi utliser pour le projet.
 
 ---
